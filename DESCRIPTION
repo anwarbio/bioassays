@@ -7,7 +7,7 @@ Authors@R: c(person("Anwar Azad", "Palakkan", role = c("aut", "cre"),
              person("Jamie", "Davies", role = "aut",
                      email = "jamie.davies@ed.ac.uk"))
 Description: The goal is to help users to analyse data from multi wells with minimum effort. Using these functions several plates can be analyzed automatically.
-License: GPL (>= 2)
+License: GPL 3
 Encoding: UTF-8
 LazyData: true
 Imports: 

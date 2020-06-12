@@ -7,7 +7,7 @@
 
 <!-- badges: end -->
 
-Here, we introduce a new open-source package, 'bioassays', designed to provide a wide range of functions relevant to multi-well plate assays. It can handle data from any of the standard multi-well plate format: 6, 12, 24, 96 or 384 well plates. ‘Bioassays’ is an R package, and has supports for formatting, visualizing and analyzing multi-well plate assays. It has functions for handling outliers, for handling multiple data sets with separate blanks, for estimating values from standard curves, for summarizing data and for doing statistical analysis. Moreover, it is strongly documented in a manner designed to be easy for even beginners to grasp. The package has functions for data extraction (extract_filename), formatting (data2plateformat, plate2df, matrix96 and plate_metadata), visualization (heatplate) and data analysis (reduceblank, estimate, dfsummary, pvalue).
+'Bioassays' is an R package, designed to provide a wide range of functions relevant to multi-well plate assays. It can handle data from any of the standard multi-well plate format: 6, 12, 24, 96 or 384 well plates. ‘Bioassays’ is an R package, and has supports for formatting, visualizing and analyzing multi-well plate assays. It has functions for handling outliers, for handling multiple data sets with separate blanks, for estimating values from standard curves, for summarizing data and for doing statistical analysis. Moreover, it is strongly documented in a manner designed to be easy for even beginners to grasp. The package has functions for data extraction (extract_filename), formatting (data2plateformat, plate2df, matrix96 and plate_metadata), visualization (heatplate) and data analysis (reduceblank, estimate, dfsummary, pvalue).
 
 ## Installation
 

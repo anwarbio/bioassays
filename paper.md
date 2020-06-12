@@ -44,10 +44,10 @@ The function ‘reduceblank’ can help to reduce blank values from the readings
 
 # Availability and installation
 
-Bioassays is supported on Windows and macOS. The package can be installed using install.packages command in R. The source code, vignette, datasets and detailed examples on how to use the package are available on CRAN ( https://CRAN.R-project.org/package=bioassays).
+Bioassays is supported on Windows and macOS. The package can be installed using install.packages command in R. The source code, vignette, datasets and detailed examples on how to use the package are available on CRAN ( https://CRAN.R-project.org/package=bioassays) and GitHub (https://github.com/anwarbio/bioassays).
 
 # Acknowledgment
-The author acknowledges Prof Jamie Davies for correcting the article and other lab members for the support.
+The author acknowledges Prof Jamie Davies for suggestions and correcting the article. Support from lab members are acknolegment.
 
 # Figures
 ![Input data format from a 96 well plate reading.\label{figure 1}](figure1.png)

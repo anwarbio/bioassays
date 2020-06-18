@@ -1,5 +1,5 @@
 ---
-title: "‘Bioassays’; a new package in R for analyzing cellular assays"
+title: Bioassays: a new package in R for analyzing cellular assays
 
 tags:
   - R

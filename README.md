@@ -26,5 +26,5 @@ Detail’s of various funtions in this package is provided in
 ‘bioassays-vignette’. Examples on how to use this package is provided
 in ‘bioassays-example’ in Vignette.
 
-## License
+## License: GPL-3.0
 https://github.com/anwarbio/bioassays/blob/master/LICENSE

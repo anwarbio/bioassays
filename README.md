@@ -25,3 +25,6 @@ install_github("anwarbio/bioassays")
 Detail’s of various funtions in this package is provided in
 ‘bioassays-vignette’. Examples on how to use this package is provided
 in ‘bioassays-example’ in Vignette.
+
+## License
+https://github.com/anwarbio/bioassays/blob/master/LICENSE

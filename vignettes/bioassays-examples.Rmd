@@ -53,11 +53,11 @@ setwd(path1)
 
 Read files
 
-Files can be read using the codes below. Files need to be in .csv format. In this examples file names reflect the type of assay used. For example  *"L DIFF P3 72HRS.csv"* :*L* is assay code (Lactate assay), *DIFF* differentiation (type of cells used), *p3*: Plate 3 (each plate represent specific compounds tested), *72HRS* 72hrs treatment with compound. These information will help to summarise the results.
+Files can be read using the codes below. Files need to be in .csv format. In this examples file names reflect the type of assay used. For example  *"L_DIFF_P3_72HRS.csv"* :*L* is assay code (Lactate assay), *DIFF* differentiation (type of cells used), *p3*: Plate 3 (each plate represent specific compounds tested), *72HRS* 72hrs treatment with compound. These information will help to summarise the results.
 
 
 ```{r files}
-filelist <-list("L HEPG2 P3 72HRS.csv","L HEPG2 P3 24HRS.csv") # list of files
+filelist <-list("L_HEPG2_P3_72HRS.csv","L_HEPG2_P3_24HRS.csv") # list of files
 fno<-1 # file number (in fileslist) that is going to be analyzed
 result <- data.frame(stringsAsFactors= FALSE) ## An empty dataframe to dump result
 zzz <- data.frame(stringsAsFactors= FALSE) ## An empty dataframe to dump result
@@ -68,7 +68,7 @@ zzz <- data.frame(stringsAsFactors= FALSE) ## An empty dataframe to dump result
 ```{r readcsv}
 filename<-extract_filename(filelist[fno])[1]
 filename
-nickname<-extract_filename(filelist[fno], split=" ",end=".csv",remove="",sep="")[2]
+nickname<-extract_filename(filelist[fno], split="_",end=".csv",remove="",sep="")[2]
 nickname
 ```
 
@@ -336,7 +336,7 @@ head(rawdata2)
 Reading metadata
 
 ```{r 384 metadata, eval=FALSE}
-metadata2<-read.csv("metafile 384 plate.csv",stringsAsFactors = FALSE,strip.white = TRUE, 
+metadata2<-read.csv("metafile_384_plate.csv",stringsAsFactors = FALSE,strip.white = TRUE, 
                    na.strings = c("NA",""),header = TRUE)
 head(metadata2)
 

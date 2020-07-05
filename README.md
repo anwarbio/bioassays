@@ -16,8 +16,9 @@ You can install the released version of bioassays from
 ``` r
 install.packages("bioassays")
 ```
-From GitHub using
+The latest development version can be installed from github with the remotes package
 ``` r
+library(remotes)
 install_github("anwarbio/bioassays")
 ```
 ## Example

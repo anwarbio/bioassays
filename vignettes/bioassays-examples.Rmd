@@ -35,7 +35,7 @@ library(nplr)# for the standard curve fitting
 
 # Introduction
 
-In a cell culture lab various cellular assays are performed. The package "bioassays" will help to analyse the results of these experiments performed in multiwell plates. The functions in this package can be used to summarise data from any multiwell plate, and by incorporating them in a loop several plates can be analyzed automatically. Two examples are shown in this article.
+In a cell culture lab various cellular assays are performed. The package "bioassays" will help to analyse the results of these experiments performed in multiwell plates. The functions in this package can be used to summarise data from any multiwell plate, and by incorporating them in a loop several plates can be analyzed automatically. Two examples are shown in this article. All the csv files used for the examples are availble in the folder exdata (inst/exdata).
 
 
 # Example 1: Analysing result from a 96 well plate

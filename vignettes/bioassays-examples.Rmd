@@ -135,7 +135,7 @@ An example function is given below which will determine the compound,concentrati
 plate_info<-function(file,i){
   
   file<-file[1]
-  plate<- extract_filename(file,split = " ",end = ".csv", remove = " ", sep=" ")[5]
+  plate<- extract_filename(file,split = "_",end = ".csv", remove = " ", sep=" ")[5]
 
 if(plate == "P2"){
   compound<-"CyclosporinA"   # Concentration of cyclosporinA used for experiment

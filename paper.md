@@ -38,7 +38,7 @@ The function extract_filename is useful for extracting specific information from
 
 The function data2plateformat converts the data (eg: readings from a 96 well plate) to an appropriate matrix format with suitable row and column names. The plate2df function can convert such data into a data frame with ‘row’ and ‘col’ columns to indicate well position. The function matrix96 can convert both character and numeric columns to a matrix. This function can automatically determine the type of multi-well from which the data is coming, and it have provision to convert negative and NA values to 0, if needed. The plate_metadata function combines plate-specific information (such as compound used, standard concentration, dilution of samples, etc.), to produce unique plate metadata.
 
-For data visualization, the ‘heatplate’ function can be used. This can plot both heat plots (\autoref{figure 3}) and categorical plots (\autoref{figure 4}) automatically, depending on the data type.  The ‘heatplate’ function also has provisions for adjusting the displayed well size, for visual esthetics. Any of your multi-well plate data can be structured for the plots (function 'heatplate') by using function 'data2plateformat', 'plate2df', 'matrix96' alone or in combinations (depending on your input data).
+For data visualization, the ‘heatplate’ function can be used. This can plot both heat plots (\autoref{figure 3}) and categorical plots (\autoref{figure 4}) automatically, depending on the data type.  The ‘heatplate’ function also has provisions for adjusting the displayed well size, for visual esthetics. Any multi-well plate data can be structured for the plots (function 'heatplate') by using functions 'data2plateformat', 'plate2df', 'matrix96' alone or in combinations (depending on the input data).
 
 The function ‘reduceblank’ can help to reduce blank values from the readings. This function can handle separate blanks for different datasets. The function ‘estimate’ can be used to estimate unknown variable (eg: concentration) based on standard curve. The function ‘dfsummary’ is really versatile for handling multiple data sets. It can group samples and summarize data sets separately. It has additional controls for handling outliers and omitting unwanted data sets. Function ‘pvalue’ can be used to test significance by t-test. It has provisions for asserting control group and level of significance.
 
@@ -47,7 +47,7 @@ The function ‘reduceblank’ can help to reduce blank values from the readings
 Bioassays is supported on Windows and macOS. The package can be installed using install.packages command in R. The source code, vignette, datasets and detailed examples on how to use the package are available on CRAN ( https://CRAN.R-project.org/package=bioassays) and GitHub (https://github.com/anwarbio/bioassays).
 
 # Acknowledgment
-The author acknowledges Prof Jamie Davies for suggestions and correcting the article. Support from lab members (Jamie Davies Group, Centre for Discovery Brain Sciences, University of Ediburgh) are acknowleged.
+The author acknowledges Prof Jamie Davies for suggestions and correcting the article. Support from lab members (Jamie Davies Group, Centre for Discovery Brain Sciences, University of Ediburgh) are acknowledged.
 
 # Figures
 ![Input data format from a 96 well plate reading.\label{figure 1}](figure1.png)

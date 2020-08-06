@@ -18,8 +18,8 @@ For the most part, I tried to follow the guidelines from [R packages][r-pkg] by
 [Hadley Wickham][hadley]. The unit tests are performed with [testthat][], the
 documentation is built with [roxygen2][], and the online package documentation
 is created with [rmarkdown](https://github.com/rstudio/rmarkdown). Continuous integration testing is performed for
-for macOS by [Travis CI][travis], and for Windows
-by [AppVeyor][appveyor].
+for macOS by [Travis CI][https://travis-ci.com/github/anwarbio/bioassays/builds], and for Windows
+by [AppVeyor][https://ci.appveyor.com/project/anwarbio/bioassays].
 
 The repository contains the files `LICENSE` and `LICENSE.md` to both adhere to
 [R package conventions for defining the license][r-exts-licensing] and also to

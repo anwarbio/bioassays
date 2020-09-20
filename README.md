@@ -29,3 +29,13 @@ in ‘bioassays-example’ in Vignette.
 
 ## License: GPL-3.0
 https://github.com/anwarbio/bioassays/blob/master/LICENSE
+
+## Contribute
+
+We love your input! Users may request new features by opening a [GitHub Issue](https://github.com/anwarbio/bioassays/issues), or may contribute their own additions and improvements via a pull request. Similarly, if you run into problems while using this package, or require technical support, do not hesitate to request support through a [GitHub Issue](https://github.com/anwarbio/bioassays/issues). If you use ‘Bioassays’ in your work and would like to further collaborate, I would be more than willing to discuss it over email or [GitHub Issue](https://github.com/anwarbio/bioassays/issues). When you submit code changes, your submissions are understood to be under the same [GPL-3.0](https://github.com/anwarbio/bioassays/blob/master/LICENSE) that covers this project.
+
+An incomplete list of possible improvements:
+* Include support for qPCR data analysis
+* Include provisions for user template
+* Include capability for plotting data
+

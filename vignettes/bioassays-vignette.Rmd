@@ -139,7 +139,7 @@ head(OD_df)
 
 `matrix96` helps to convert a data.frame into a matrix. The syntax is
 `matrix96(dataframe,column,rm="FALSE")`. **dataframe** is the data.frame to be
-formatted. The data.frame must cotain `row` and `col` columns. **column** is the
+formatted. The data.frame must contain `row` and `col` columns. **column** is the
 name of column that needs to be converted into a matrix. If **rm= "TRUE"** then
 -ve and NA are set to 0.
 
@@ -157,7 +157,7 @@ matrix96(OD_df,"position")
 ## 6. Function: plate_metadata
 
 `plate_metadata` combines the plate-specific information (like compound used,
-standard concentration, dilution of samples, etc) and metadat into  unique plate
+standard concentration, dilution of samples, etc) and metadata into  unique plate
 metadata. The syntax is `plate_metadata(plate_details,
 metadata,mergeby="type")`. **plate details** is the plate specific information
 that needs to be added to metadata. **metadata** is the metadata for the whole
@@ -307,12 +307,12 @@ head(estimated2)
 ## 10. Function: dfsummary
 
 `dfsummary()` summarizes the data.frame (based on a column). It has additional
-controls togroup samples and to omit variables not needed. The syntax is
+controls to group samples and to omit variables not needed. The syntax is
 `dfsummary(dataframe,y,grp_vector,rm_vector,nickname,rm="FALSE",param)`.
 **dataframe** is the data. **y** is the numeric variable (column name) that has
 to be summarized. **grp_vector** is a vector of column names, determining which
 samples will be grouped. The order of the elements in grp_vector determines the
-order of grouping. **rm_vector** is the vector of items to be omit before
+order of grouping. **rm_vector** is the vector of items to be omitted before
 summarizing. **nickname** is the name for the output data.frame. Set
 **rm="FALSE"** if outliers should not be removed. To apply more stringent
 thresholds for removing outliers, parameters can be provided in the  **param**

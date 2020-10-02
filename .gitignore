@@ -1,13 +1,3 @@
 # RStudio files
 ^.*\.Rproj$
 ^\.Rproj\.user$
-data-raw
-figure1.png
-figure2.png
-figure3.png
-figure4.png
-paper.bib
-paper.md
-CONTRIBUTIONS.md
-appveyor.yml
-bioassays.Rproj

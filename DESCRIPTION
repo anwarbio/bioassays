@@ -1,7 +1,7 @@
 Package: bioassays
 Type: Package
 Title: Summarising Multi Well Plate Cellular Assay
-Version: 0.1.0
+Version: 1.0.0
 Authors@R: c(person("Anwar Azad", "Palakkan", role = c("aut", "cre"),
                      email = "bioanwar@gmail.com"),
              person("Jamie", "Davies", role = "aut",

@@ -54,8 +54,8 @@ The author acknowledges Prof Jamie Davies for suggestions and correcting the art
 
 ![Metafile data format.\label{figure 2}](figure2.png)
 
-![Heat map of 384 well (normalized values).\label{figure 3}](figure3.tif)
+![Heat map of 384 well (normalized values).\label{figure 3}](figure3.png)
 
-![Categorical plot of 384 well plate.\label{figure 4}](figure4.tif)
+![Categorical plot of 384 well plate.\label{figure 4}](figure4.png)
 
 # References

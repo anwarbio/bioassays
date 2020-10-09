@@ -1,6 +1,10 @@
-#' metadata of 96 well plate.
+#'@docType data
 #'
-#' A dataset containing metadata.
+#'@name metafile96
+#'
+#'@aliases metafile96
+#'
+#'@title Metadata of 96 Well Plate.
 #'
 #' @format A data frame with 96 rows and 7 variables.
 #' \describe{
@@ -13,5 +17,13 @@
 #' \item{dilution}{dilution of samples used for assay.}
 #' }
 
-#' @source {User generated metadata of 96 well plate.}
-"metafile96"
+#'@source User generated metadata of 96 well plate.
+#'
+#'@usage metafile96
+#'
+#'@description A dataset containing metadata.
+#'
+#'@keywords datasets
+#'
+NULL
+

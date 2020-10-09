@@ -1,6 +1,7 @@
-#' metadata of 384 well plate.
-#'
-#' A dataset containing metadata.
+#' @docType data
+#' @name metafile384
+#' @aliases metafile384
+#' @title Metadata of 384 Well Plate
 #'
 #' @format A data frame with 384 rows and 8 variables.
 #' \describe{
@@ -15,4 +16,12 @@
 #' }
 
 #' @source {User generated metadata of the 384 well plate.}
-"metafile384"
+#'
+#'@usage metafile384
+#'
+#'@description A dataset containing metadata.
+#'
+#'@keywords datasets
+#'
+NULL
+

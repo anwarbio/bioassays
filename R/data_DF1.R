@@ -1,6 +1,7 @@
-#' Data of 96 well plate.
-#'
-#' A complete dataset containing both metadata and spectrophotometer reading.
+#' @docType data
+#' @name data_DF1
+#' @aliases  data_DF1
+#' @title Data of 96 well plate.
 #'
 #' @format A data frame with 96 rows and 10 variables
 #' \describe{
@@ -18,4 +19,9 @@
 
 
 #' @source {User generated dataframe of the 96 well plate.}
-"data_DF1"
+#' @usage data_DF1
+#'
+#' @description A complete dataset containing both metadata and spectrophotometer reading
+#'
+#'@keywords datasets
+NULL
